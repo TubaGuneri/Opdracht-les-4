@@ -1,1 +1,38 @@
 /*Maak hier jouw CSS!*/
+
+.item {
+    background-color: #702618;
+    color:#ffffff;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: px 600px 600px  ;
+    grid-template-rows: 800px 800px 800px;
+    grid-gap: 16px;
+    grid-template-areas:
+"a c c"
+"b c c"
+"b e d"
+"b e"
+"f f f";
+}
+.item-a {
+    grid-area: a;
+}
+.item-b {
+    grid-area: b;
+}
+.item-c {
+    grid-area: c;
+}
+.item-d {
+    grid-area: d;
+}
+.item-e {
+    grid-area: e;
+}
+.item-f {
+    grid-area: f;
+}
